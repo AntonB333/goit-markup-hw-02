@@ -48,14 +48,14 @@ ul, ol {
      text-align: left;
 }
 
-.logo-part: {
+.logo-part {
     color: #f4f4fd
-    font-family: Raleway
-    font-size: 18px
-    font-weight: 700
-    line-height: 1.17
-    letter-spacing: 0.03em
-    text-align: left
+    font-family Raleway
+    font-size 18px
+    font-weight 700
+    line-height 1.17
+    letter-spacing 0.03em
+    text-align left
 }
 
 .header-list {
@@ -163,7 +163,7 @@ gap: 10px
 
 .features-block-4 {
     width: Fixed (264px) 
-    height: Hug (104px) 
+    height Hug (104px) 
     
 }
 
