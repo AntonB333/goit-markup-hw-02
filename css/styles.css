@@ -15,12 +15,9 @@ ul, ol {
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
     margin: -1px;
     border: 0;
-    padding: 0;
+   
 
     white-space: nowrap;
     clip-path: inset(100%);
@@ -30,12 +27,13 @@ ul, ol {
 
 .header-logo {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
+    text-transform: uppercase;
 }
 
 .header-logo span {
@@ -46,6 +44,7 @@ ul, ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
      text-align: left;
+     text-transform: uppercase;
 }
 
 .logo-part {
@@ -69,12 +68,12 @@ ul, ol {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     text-align: left;
 }
 
 .address {
-    font-style: body;
+    font-style: normal;
     font-family: "Roboto";
     font-size: 16px;
     font-weight: 400;
@@ -103,11 +102,13 @@ ul, ol {
     text-align: left;
 }
 
+/* Section 1 */
+
 .section-1 {
     background-color: #2E2F42;
-    width: 1440px; 
-    height: 600px;
-    top: 72px
+  
+    
+  
 }
 
 .section-1-title {
@@ -121,14 +122,28 @@ ul, ol {
 }
 
 .section-1-btn {
-width: Hug (169px); 
-height: Hug (56px); 
-top: 428px; 
-left: 636px; 
-padding: 16px, 32px, 16px, 32px; 
-border-radius: 4px; 
-gap: 10px
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:#ffffff
+    
 }
+
+.section-1-btn:hover {
+    background-color: #404BBF
+}
+
+.section-1-btn:focus {
+    background-color: #404BBF
+}
+
+.section-1-btn {
+    cursor: pointer;
+}
+
+/* Section 2 */
 
 .section-2 {
     
@@ -143,29 +158,21 @@ gap: 10px
     text-align: left;
 
     
-.features-block {
-    width: Fixed (264px);
-    height: Hug (104px); 
+.features-block { 
 
 }
 
 .features-block-2 {
-    width: Fixed (264px); 
-    height: Hug (104px); 
  
 }
 
 .features-block-3 {
-    width: Fixed (264px); 
-    height: Hug (104px); 
+      
   
 }
 
 .features-block-4 {
-    width: Fixed (264px) 
-    height Hug (104px) 
-    
-}
+  }
 
 
 }
@@ -179,7 +186,10 @@ gap: 10px
     text-align: left;
 }
 
+/* Section 3 */
+
 .our-team-section {
+    background-color: #F4F4FD
    
 }
 
@@ -198,43 +208,23 @@ gap: 10px
 }
 
 .our-team-item-1 {
-    width: Hug (264px);
-    height: Hug (380px); 
-    top: 1248px; 
-    left: 156px; 
-    padding: 0px, 0px, 32px, 0px;
-    border-radius: 0px, 0px, 4px, 4px; 
-    gap: 32px
+   background-color: #ffffff;
+
 }
 
 .our-team-item-2 {
-    width: Hug (264px); 
-    height: Hug (380px); 
-    top: 1248px;
-    left: 444px; 
-    padding: 0px, 0px, 32px, 0px; 
-    border-radius: 0px, 0px, 4px, 4px; 
-    gap: 32px
+    background-color: #ffffff;
 }
+    
 
 .our-team-item-3 {
-    width: Hug (264px); 
-    height: Hug (380px); 
-    top: 1248px; 
-    left: 732px;
-    padding: 0px, 0px, 32px, 0px; 
-    border-radius: 0px, 0px, 4px, 4px; 
-    gap: 32px;
+    background-color: #ffffff;
+    
 }
 
 .our-team-item-4 {
-    width: Hug (264px); 
-    height: Hug (380px); 
-    top: 1248px ;
-    left: 1020px ;
-    padding: 0px, 0px, 32px, 0px; 
-    border-radius: 0px, 0px, 4px, 4px; 
-    gap: 32px;
+    background-color: #ffffff;
+    
 }
 
 .our-team-members {
@@ -254,16 +244,19 @@ gap: 10px
     text-align: center;
 }
 
-.section-portfolio {
+/* Section 4 */
+
+/* .section-portfolio {} */
     
-}
 
 .sect-portf-title {
+    color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 .portf-list1 {
 
@@ -291,28 +284,30 @@ gap: 10px
 
 .footer {
 background-color: #2e2f42 ;
-width: 1440px;
-height: 312px;
-top: 2988px;
+
+
+
 }
 .footer-logo {
     color:#4D5AE5;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
+    text-transform: uppercase;
 }
 
 .footer-logo-part {
     color: #f4f4fd;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
+    text-transform: uppercase;
 }
 
 .footer-text {
