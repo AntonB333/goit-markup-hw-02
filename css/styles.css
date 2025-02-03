@@ -270,9 +270,9 @@ color: #404bbf;
     text-align: center;
     text-transform: capitalize;
 }
-.portf-list1 {
+/* .portf-list {
 
-}
+} */
 
 .portf-item-title {
         color: #2E2F42;
@@ -292,7 +292,7 @@ color: #404bbf;
         text-align: left;
 }
 
-.portf-list2 {}
+/* .portf-list2 {} */
 
 .footer {
 background-color: #2e2f42 ;
